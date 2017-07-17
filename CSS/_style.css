@@ -9,12 +9,14 @@ img{
 figure{
   margin: 0;
 }
-
-
-
 .fond_noir{
   color: white;
   background-color: black;
+}
+.fond_blanc{
+  background-image: url('../images/Backgroundwood.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .flex_item{
   width: 50%;
@@ -40,4 +42,42 @@ figure{
   .flex_item{
     max-width: 15em;
   }
+}
+
+/*NAVIGATION*/
+.navigation{
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  z-index: 1;
+}
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 1em 0;
+  text-align: right;
+  width: 100%;
+}
+nav ul li{
+  display: inline;
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 1.28em;
+  transition: all 0.2s;
+}
+nav ul li a:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*BANNIÈRE*/
+.banner_image img{
+  padding: 20vh;
+}
+
+/*CHIRASHI*/
+.produit_description{
+  border-bottom: 1px solid black
 }
