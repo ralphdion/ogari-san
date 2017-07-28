@@ -1,35 +1,8 @@
-/**** Typographie responsive (Mobile First) ****/
-
-/**
- * @author Prénom Nom courriel
-**/
-
-/**
- * TABLE DES MATIÈRES
- * Doc des points de rupture
- * Polices
- * Base décimale
- * Hiérarchie responsive
- * CONTRÔLE de la longueur des lignes
- */
-
-/* Points de rupture : 600px et 1000px */
-/* Écran étroit : de 0 à 599px */
-/* Écran moyen : de 600 à 999px */
-/* Écran large : 1000px et + */
-
 /** Polices **/
 @font-face {
-    font-family: 'Karla', sans-serif;
-    src:url(../fonts/Karla/Karla-Bold.ttf) format('ttf'),
-        url(../fonts/Karla/Karla-Bolditalic.ttf) format('ttf'),
-        url(../fonts/Karla/Karla-Italic.ttf) format('ttf'),
-        url(../fonts/Karla/Karla-Regular.ttf) format('ttf');
+  font-family: 'Raleway', sans-serif;
 }
-@font-face {
-    font-family: 'Karla', sans-serif;
-    src:url(../fonts/Karla/Karla-Regular.ttf) format('ttf');
-}
+
 h1,
 .h1,
 h2,
@@ -38,10 +11,10 @@ h3,
 .h3,
 h4,
 .h4 {
-    font-family: Karla, sans-serif ;
+    font-family: 'Raleway', sans-serif;
 }
 body{
-    font-family: Karla, sans-serif ;
+    font-family: 'Raleway', sans-serif;
 }
 
 /** Base décimale **/
@@ -93,6 +66,7 @@ h2,
 .h2 { /* = 24px */
     font-size: 24px;
     font-size: 2.4rem;
+    text-align: center;
 }
 @media (min-width: 600px) {
     h2,
@@ -133,6 +107,7 @@ h4,
 .h4 { /* = 16px */
     font-size: 16px;
     font-size: 1.6rem;
+    text-align: center;
 }
 @media (min-width: 600px) {
     h4,

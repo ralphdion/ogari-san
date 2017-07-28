@@ -10,6 +10,7 @@
     <link href="css/_typo.css" rel="stylesheet">
     <link href="css/_grille.css" rel="stylesheet">
     <link rel="stylesheet" href="css/_style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 
 <body>
@@ -17,14 +18,14 @@
     <div class="navigation">
       <nav class="clearfix conteneur">
         <ul>
-          <li><a href="">Chirashi</a></li>
-          <li><a href="">Sushi Burrito</a></li>
-          <li><a href="">Soupe</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="index.html#chirashi">Chirashi</a></li>
+          <li><a href="index.html#sushiBurrito">Sushi Burrito</a></li>
+          <li><a href="index.html#soupe">Soupe</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
-    <div class="fond_noir">
+    <div class="fond_noir banner">
       <figure class="banner_image  clearfix rangee conteneur">
         <img src="images/logo_ogarisan.svg" alt="">
       </figure>
@@ -33,14 +34,27 @@
   <main>
     <div class="fond_blanc">
       <div class="rangee clearfix conteneur">
-        <h2>Chirashi</h2>
-        <p class="categorie_description">Kissing gourami airsac catfish, Moorish idol dab longnose sucker giant danio tenpounder--southern flounder hardhead catfish?</p>
+        <h2 id="chirashi">Chirashi</h2>
         <article class="produit col_4_de_12 col">
           <figure class="produit_image">
             <img src="images/Regulier.png" alt="">
           </figure>
           <h3>Chirashi Régulier</h3>
           <p class="produit_description">Righteye flounder; koi, swordtail cuckoo wrasse bandfish eel-goby snake mudhead trevally Alaska blackfish. Daggertooth pike conger conger eel bull shark king of herring." </p>
+          <div class="rangee clearfix">
+            <div class="chirashi_prix prix">
+              <p><span class="rose">2</span> Choix</p>
+              <p>7.<sup>95$</sup></p>
+            </div>
+            <div class="chirashi_prix prix">
+              <p><span class="rose">3</span> Choix</p>
+              <p>12.<sup>50$</sup></p>
+            </div>
+            <div class="chirashi_prix prix">
+              <p><span class="rose">5</span> Choix</p>
+              <p>18.<sup>50$</sup></p>
+            </div>
+        </div>
         </article>
         <article class="produit col_4_de_12 col">
           <figure class="produit_image">
@@ -48,6 +62,20 @@
           </figure>
           <h3>Chirashi Russe</h3>
           <p class="produit_description">Righteye flounder; koi, swordtail cuckoo wrasse bandfish eel-goby snake mudhead trevally Alaska blackfish. Daggertooth pike conger conger eel bull shark king of herring." </p>
+          <div class="rangee clearfix">
+            <div class="chirashi_prix prix">
+              <p><span class="rose">2</span> Choix</p>
+              <p>7.<sup>95$</sup></p>
+            </div>
+            <div class="chirashi_prix prix">
+              <p><span class="rose">3</span> Choix</p>
+              <p>12.<sup>50$</sup></p>
+            </div>
+            <div class="chirashi_prix prix">
+              <p><span class="rose">5</span> Choix</p>
+              <p>18.<sup>50$</sup></p>
+            </div>
+        </div>
         </article>
         <article class="produit col_4_de_12 col">
           <figure class="produit_image">
@@ -55,121 +83,151 @@
           </figure>
           <h3>Bol Dragon</h3>
           <p class="produit_description">Righteye flounder; koi, swordtail cuckoo wrasse bandfish eel-goby snake mudhead trevally Alaska blackfish. Daggertooth pike conger conger eel bull shark king of herring." </p>
+          <div class="rangee clearfix">
+            <div class="chirashi_prix prix">
+              <p><span class="rose">p</span>etit</p>
+              <p>7.<sup>95$</sup></p>
+            </div>
+            <div class="chirash_prix prix">
+              <p><span class="rose">m</span>oyen</p>
+              <p>12.<sup>50$</sup></p>
+            </div>
+            <div class="chirashi_prix prix">
+              <p><span class="rose">g</span>rand</p>
+              <p>18.<sup>50$</sup></p>
+            </div>
+        </div>
         </article>
       </div>
     </div>
     <div class="fond_noir">
       <div class="rangee clearfix conteneur">
-        <div class="col_3_de_12 col">
-          <h4>Choix de Poisson</h4>
+        <div class="col_3_de_12 col choix">
+          <h4>Choix de <br> <span class="bleu">Poisson</span></h4>
+          <ul class="choix_chirashi poisson">
+            <li>calmar frit</li>
+            <li>crevettes nordiques</li>
+            <li>crevette tempura</li>
+            <li>crevettes tigrées</li>
+            <li>goberge</li>
+            <li>pétoncle nature</li>
+            <li>rillette de saumon</li>
+            <li>saumon fumé</li>
+            <li>saumon grillé</li>
+            <li>saumon gravlax</li>
+            <li>tartare de saumon</li>
+            <li>tataki de saumon</li>
+            <li>filet de saumon</li>
+            <li>tilapia en filet</li>
+            <li>tilapia grillé</li>
+          </ul>
+        </div>
+        <div class="col_3_de_12 col choix">
+          <h4>Choix de <br><span class="rose">Viande</span></h4>
           <ul class="choix_chirashi">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>boeuf coréen</li>
+            <li>porc panko</li>
+            <li>poulet yuzu</li>
+            <li>wonton frit</li>
+            <li>tataki de boeuf</li>
+          </ul>
+        </div>
+        <div class="col_3_de_12 col choix">
+          <h4>Choix de <br><span class="vert">noix, fruit et tofu</span></h4>
+          <ul class="choix_chirashi">
+            <li>amandes effilées</li>
+            <li>fromage à la crème</li>
+            <li>mangue</li>
+            <li>noix de cajou</li>
+            <li>tofu miso</li>
+            <li>tofu teriyaki</li>
           </ul>
         </div>
         <div class="col_3_de_12 col">
-          <h4>Choix de Viande</h4>
+          <h4>Personalisez votre chirashi</h4>
           <ul class="choix_chirashi">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        </div>
-        <div class="col_3_de_12 col">
-          <h4>Choix de noix, fruit et tofu</h4>
-          <ul class="choix_chirashi">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        </div>
-        <div class="col_3_de_12 col">
-          <h4>Personalisez voter chirashi</h4>
-          <ul class="choix_chirashi">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li><span class="vert">ajout</span> avovat <span class="vert">1<sup>00$</sup></span></li>
+            <li><span class="vert">ajout</span> wakame <span class="vert">1<sup>00$</sup></span></li>
+            <li><span class="vert">ajout</span> tempura <span class="vert">-GRATUIT-</span></li>
+            <li>choix supplémentaire <br><span class="vert">1<sup>75$</sup> / choix</span></li>
           </ul>
         </div>
       </div>
     </div>
     <div class="fond_blanc">
       <div class="rangee clearfix conteneur ">
-        <h2>Sushi Burrito</h2>
+        <h2 id="sushiBurrito">Sushi Burrito</h2>
         <div class="flex_box">
           <article class="flex_item">
             <figure class="produit_image">
               <img src="images/Burrito-Tofu.png" alt="">
-              <figcaption>Sushi Burrito Végétarien</figcaption>
+              <figcaption>Sushi Burrito <span class="vert">Végétarien</span></figcaption>
             </figure>
           </article>
           <article class="flex_item">
             <figure class="produit_image">
               <img src="images/Burrito-Saumon.png" alt="">
-              <figcaption>Sushi Burrito Saumon Fumé</figcaption>
+              <figcaption>Sushi Burrito <span class="bleu">Saumon Fumé</span></figcaption>
             </figure>
           </article>
           <article class="flex_item">
             <figure class="produit_image">
               <img src="images/Burrito-Saumon2.png" alt="">
-              <figcaption>Sushi Burrito au Tartare</figcaption>
+              <figcaption>Sushi Burrito au <span class="bleu">Tartare</span></figcaption>
             </figure>
           </article>
           <article class="flex_item">
             <figure class="produit_image">
               <img src="images/Burrito-Tataki-Boeuf.png" alt="">
-              <figcaption>Sushi Burrito au Boeuf</figcaption>
+              <figcaption>Sushi Burrito au <span class="rose">Boeuf</span></figcaption>
             </figure>
           </article>
         </div>
       </div>
+    </div>
+    <div class="fond_noir">
       <div class="rangee conteneur clearfix ">
-        <h2>Soupes</h2>
+        <h2 id="soupe">Soupes</h2>
         <article class="produit col_6_de_12 col">
           <figure class="produit_image">
             <img src="images/WonTon.png" alt="">
           </figure>
-          <h3>Soupe Wonton</h3>
-          <p class="produit_description">Righteye flounder; koi, swordtail cuckoo wrasse bandfish eel-goby snake mudhead trevally Alaska blackfish. Daggertooth pike conger conger eel bull shark king of herring." Alooh capelin emperor angelfish monkfish telescopefish, jewfish kahawai, "scissor-tail rasbora bichir king-of-the-salmon triplefin blenny guitarfish forehead brooder sea lamprey golden loach." </p>
+          <h3>Soupe <span class="bleu">Wonton</span></h3>
+          <div class="conteneur rangee clearfix">
+            <div class="col_6_de_12 col prix">demi <span class="bleu">5<sup>00$</sup></span></div>
+            <div class="col_6_de_12 col prix">repas <span class="bleu">9<sup>50$</sup></span></div>
+          </div>
         </article>
         <article class="produit col_6_de_12 col">
           <figure class="produit_image">
             <img src="images/Coco-Thai.png" alt="">
           </figure>
-          <h3>Soupe Coco-Thai</h3>
-          <p class="produit_description">Righteye flounder; koi, swordtail cuckoo wrasse bandfish eel-goby snake mudhead trevally Alaska blackfish. Daggertooth pike conger conger eel bull shark king of herring." Alooh capelin emperor angelfish monkfish telescopefish, jewfish kahawai, "scissor-tail rasbora bichir king-of-the-salmon triplefin blenny guitarfish forehead brooder sea lamprey golden loach." </p>
+          <h3>Soupe <span class="vert">Coco-Thai</span></h3>
+          <div class="col_12_de_12 prix">repas <span class="vert">7<sup>50$</sup></span></div>
         </article>
       </div>
     </div>
-    <div class="fond_noir">
-      <h2 class="conteneur">Nous Joindre</h2>
+    <div class="fond_blanc">
+      <h2 id="contact">Nous Joindre</h2>
       <iframe width="100%" height="450" frameborder="0" style="border:0"
       src="https://www.google.com/maps/embed/v1/place?q=ogari-san&key=AIzaSyDwR_ygOkfmRm-MFU4oKKChrlDTaKceiwU" allowfullscreen></iframe>
-      <div class="conteneur clearfix">
+      <div class="conteneur clearfix rangee">
         <div class="col_6_de_12 col">
           <h3>Addresse</h3>
-          <p>sohfof <br>
-          sdvsfddfshio <br>
-          ojfusfuofho <br></p>
+          <p class="ouverture">2360 Chemin Ste-Foy <br>Ville de Québec <br>G1V 4H2</p>
+          <p class="ouverture">tel.: (418) 614-2050</p>
         </div>
         <div class="col_6_de_12 col">
           <h3>Heures d'ouverture</h3>
-          <p>sohfof <br>
-          sdvsfddfshio <br>
-          ojfusfuofho <br></p>
+          <ul class="ouverture">
+            <li>lundi - <span class="rose">10h à 21h</span></li>
+            <li>mardi - <span class="rose">10h à 21h</span></li>
+            <li>mercredi - <span class="rose">10h à 21h</span></li>
+            <li>jeudi - <span class="rose">10h à 21h</span></li>
+            <li>vendredi - <span class="rose">10h à 21h</span></li>
+            <li>samedi - <span class="rose">11h à 20h</span></li>
+            <li>dimanche - <span class="rose">11h à 20h</span></li>
+          </ul>
         </div>
       </div>
     </div>

@@ -1,17 +1,6 @@
-/**** Grille ****/
-/**** Mini système de grilles fluides MOBILE FIRST ****/
-.conteneur {
-    /*background-color: lightBlue;*/
-}
-
 .col {
     display: block;
-    /* pour espacer les blocs à la vertical.
-       Ajuster selon le besoin */
     margin: 0 0 0.5em 0;
-    /* ce qui suit n'est pas essentiel */
-    /*background-color: linen;
-    border: 1px solid black;*/
 }
 
 .col_1_de_12,
@@ -40,17 +29,11 @@ Ajuster selon le besoin  */
 
 /**** Requêtes media ****/
 /* Pour écran large */
-@media (min-width: 600px) {
+@media (min-width: 700px) {
     .conteneur {
         margin: 0 auto;
         max-width: 1000px;
         padding: 0;
-        /* Grille 12 colonnes en arrière-plan - Mettre en commentaires après usage */
-        /**background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 83.33333%, transparent 83.33333%);
-        background-size: 8.4507%;
-        background-origin: content-box;
-        background-clip: content-box;
-        background-position: left top;**/
     }
 
     .col {
