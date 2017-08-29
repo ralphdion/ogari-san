@@ -48,13 +48,8 @@ h4{
   color: white;
 }
 
-.burrito_desc{
-  font-size: 0.7em;
-  display: none;
-}
-
-.flex_item:hover .burrito_desc{
-  display: block;
+.produit_description{
+  font-size: 1em;
 }
 @media(min-width:700px){
   .flex_box{
@@ -120,6 +115,10 @@ nav ul li a:hover{
 .produit_description{
   border-bottom: 1px solid black;
   min-height: 150px;
+}
+
+.produit_description.burrito_desc{
+  min-height: 350px;
 }
 .prix{
   margin: auto;
